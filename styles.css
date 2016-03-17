@@ -1,0 +1,62 @@
+body {
+  font-family: Helvetica,Arial,sans-serif;
+}
+div.container-fluid {
+  background: -webkit-linear-gradient(left top, white , #ecf0f1); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, white , #ecf0f1); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, white , #ecf0f1); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, white , #ecf0f1); /* Standard syntax */
+}
+div#picture{
+text-align: center;
+  margin: 30px 20% 30px 20%;
+}
+div#picture img{
+  width: 80%;
+  height: 80%;
+
+}
+div#logo {
+  text-align: center;
+  margin: 30px 20% 30px 20%;
+}
+div#logo img {
+  width: 80%;
+  height: 80%;
+}
+div#nav ul{
+    margin: 20px 20% 20px 15%;
+}
+div#nav li{
+  display: inline-block;
+}
+div#nav a{
+  padding: 15px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #2b87c3;
+}
+div#nav a:hover{
+  background-color: #bdc3c7;
+}
+div#nav{
+  text-align: center;
+}
+div#footer{
+  text-align: center;
+}
+div#footer ul{
+    margin: 20px 20% 20px 15%;
+}
+div#footer li{
+  display: inline-block;
+}
+div#footer a{
+  padding: 15px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #7f8c8d;
+}
+div#footer a:hover{
+  background-color: #ecf0f1;
+}
